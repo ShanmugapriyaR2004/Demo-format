@@ -1,0 +1,26 @@
+h3,h4{
+    color:rgb(rgb(34, 33, 33))
+}
+.firstclass{
+    text-align: center;
+}
+#div1{
+    padding:5px;
+    margin:20px;
+}
+.myclass{
+    padding:5px;
+    margin:20px;
+    max-width: fit-content;
+    animation:slide auto linear;
+    animation-timeline: scroll();
+}
+@keyframes slide {
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(calc(-100% -100vw));
+    }
+}
+
